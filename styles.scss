@@ -7,22 +7,28 @@
     min-height: 175px;
 
   }
-  img{
+  #home{
     margin-left:  15px;
+    margin-bottom: -20px;
   }
+  #img1{margin-left: 15px;}
 a{
   @extend %spacing;
   color: black;
   text-align: right;
 }
-#box{
+#iForm, #box{
     @extend %spacing;
     width: 100%;
     border: 1px solid lightgrey;
   }
+  #iForm{padding: auto; margin: auto; height: 46px;}
+  #iSearch{border: none; padding-top: 5px; margin-bottom: 5px;}
  #search, #lucky{
     @extend %spacing;
     background-color: lightgrey;
     padding-left: 10px;
     margin-left: 15px;
   }
+  #button{margin-left: 20px;}
+h6{color: blue; text-align: right; margin-right: 10px;}
