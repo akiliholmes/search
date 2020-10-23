@@ -31,22 +31,25 @@ a {
   padding: auto;
   margin: auto;
   height: 46px;
+  box-sizing: content-box;
 }
 
 #iSearch {
-  border: none;
-  padding-top: 5px;
-  margin-bottom: 5px;
+  border-style: hidden;
+  display: inline-block;
+  align-self: center;
+  padding: 10px;
+}
+
+#button {
+  align-self: center;
+  margin-top: 10px;
 }
 
 #search, #lucky {
   background-color: lightgrey;
   padding-left: 10px;
   margin-left: 15px;
-}
-
-#button {
-  margin-left: 20px;
 }
 
 h6 {
