@@ -1,0 +1,28 @@
+%spacing{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  }
+  .row{
+    min-height: 175px;
+
+  }
+  img{
+    margin-left:  15px;
+  }
+a{
+  @extend %spacing;
+  color: black;
+  text-align: right;
+}
+#box{
+    @extend %spacing;
+    width: 100%;
+    border: 1px solid lightgrey;
+  }
+ #search, #lucky{
+    @extend %spacing;
+    background-color: lightgrey;
+    padding-left: 10px;
+    margin-left: 15px;
+  }
