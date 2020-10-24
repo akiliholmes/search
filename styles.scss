@@ -2,6 +2,8 @@
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
+  outline: none;
+
   }
   .row{
     min-height: 175px;
@@ -27,13 +29,14 @@ a{
     padding: auto;
     margin: auto;
     height: 46px;
-    box-sizing:content-box;
+    box-sizing: content-box;
   }
-#iSearch{
+#iSearch, #hid{
     border-style: hidden;
     display: inline-block;
     align-self: center;
     padding: 10px;
+    outline: none;
   }
   #button{
     align-self: center;
