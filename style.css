@@ -60,4 +60,19 @@ h6 {
   margin-right: 10px;
 }
 
+#adv .row {
+  min-height: 40px;
+}
+#adv .row form {
+  width: 100%;
+  padding: 8px 1px;
+}
+#adv .row input {
+  min-width: 554px;
+  min-height: 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  line-height: 1.25;
+}
+
 /*# sourceMappingURL=style.css.map */
