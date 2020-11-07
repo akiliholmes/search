@@ -1,4 +1,4 @@
-#search, #lucky, #iForm, #box, a {
+#adv .row #header, #search, #lucky, #iForm, #box, a {
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
@@ -60,19 +60,50 @@ h6 {
   margin-right: 10px;
 }
 
+#adv {
+  font-family: arial, sans-serif;
+}
 #adv .row {
-  min-height: 40px;
+  min-height: 50px;
 }
 #adv .row form {
   width: 100%;
   padding: 8px 1px;
 }
 #adv .row input {
-  min-width: 554px;
+  width: 554px;
   min-height: 25px;
   border: 1px solid #d9d9d9;
   border-radius: 1px;
   line-height: 1.25;
+}
+#adv .row #header {
+  min-height: 100px;
+}
+#adv .row span {
+  width: 92px;
+  height: 33px;
+  background-position: 0 -35px;
+  background-size: 528px 68px;
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  display: block;
+}
+#adv .row h5 {
+  color: #d93025;
+  min-height: 50px;
+}
+
+#submit_button {
+  max-width: 120px;
+  height: 30px;
+  margin: 10px 0px;
+  padding: 0px 12px;
+  background-color: #4d90fe;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #3079ed;
+  font-size: 11px;
 }
 
 /*# sourceMappingURL=style.css.map */
